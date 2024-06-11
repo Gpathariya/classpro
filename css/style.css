@@ -1,0 +1,528 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar_row {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+}
+.logo {
+  font-family: fantasy;
+  letter-spacing: 0.1rem;
+  margin-top: 0.6rem;
+}
+.navbar_row a {
+  font-weight: 600;
+}
+.navbar_row .navbar_link {
+  color: #fff !important;
+  transition: all ease 0.3s;
+}
+.navbar_link:hover {
+  color: rgb(214, 213, 213) !important;
+}
+.drop_item {
+  transition: all ease 0.3s;
+}
+.drop_item:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+.nav_icon {
+  margin: 0.4rem !important;
+}
+.navbar_row a i {
+  margin-left: -10px;
+}
+#dropdownMenu i {
+  margin: 5px;
+}
+#dropdownMenu a:hover {
+  background-color: none;
+}
+
+/* footer */
+.footer_row {
+  background-color: rgb(108, 112, 223, 1);
+  font-size: smaller;
+  /*display: flex;
+  flex-direction: column; */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* 
+.footer_col {
+  flex: 1;
+} */
+.designer {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  /* margin-top: 0.3rem; */
+}
+.navbar-toggler {
+  background-color: #fff !important;
+  font-weight: 600;
+  display: flex;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+/* Schedule page */
+.sch_body {
+  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(244, 240, 240); */
+}
+
+.days_timing {
+  display: inline-block;
+  padding: 0.2rem 0.3rem;
+}
+.date_div {
+  display: inline-block;
+  box-shadow: 0 0 0.2rem 0.1rem blueviolet;
+  padding: 0.2rem 0.3rem;
+  color: blueviolet;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  background-color: #fff !important;
+}
+.date_dropdown {
+  color: blueviolet !important;
+}
+.slide_left_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.3rem 0.3rem;
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.slide_left_btn:hover {
+  box-shadow: 0 0 0.4rem 0.2rem blueviolet;
+}
+.slide_right_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.3rem 0.3rem;
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.slide_right_btn:hover {
+  box-shadow: 0 0 0.4rem 0.2rem blueviolet;
+}
+.pdf {
+  color: blueviolet;
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+.pdf:hover {
+  text-decoration: underline;
+}
+.time_heading {
+  color: gray;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.sch_card_head {
+  font-weight: 500;
+  font-size: larger;
+  font-family: sans-serif;
+}
+.Lecture_btn {
+  background-color: blueviolet;
+  color: #fff;
+  transition: all ease-in 0.3s;
+  font-weight: 600;
+}
+.Lecture_btn:hover {
+  background-color: rgb(162, 99, 221);
+  color: #fff;
+}
+.timing_pera {
+  color: gray;
+  font-weight: 600;
+  font-size: medium;
+  text-transform: capitalize;
+  margin: 0.3rem;
+}
+/* Massage Page */
+.msg_body {
+  background-color: rgb(243, 243, 243);
+}
+.card_msg {
+  font-weight: 500;
+  font-size: 17px;
+}
+.card_msg_time {
+  color: gray;
+  font-size: small;
+  font-weight: 500;
+}
+/* Videos Page */
+.video_body {
+  background-color: rgb(243, 243, 243);
+}
+/* .selecttion:focus {
+  border-color: blueviolet;
+  outline: 0;
+} */
+input:focus {
+  border-color: blueviolet;
+  outline: 0;
+}
+.input-icon {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-icon i {
+  /* position: absolute; */
+  /* padding: 10px; */
+  color: blueviolet;
+  max-width: 15rem;
+  text-align: center;
+}
+/* codepen css */
+.text {
+  display: table;
+  margin: 20px auto;
+}
+.t-dropdown-block {
+  width: 250px;
+  height: 35px;
+  /* margin: 20px auto; */
+  position: relative;
+}
+
+.t-dropdown-list {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  z-index: 10;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  overflow: auto;
+  position: absolute;
+  /* margin-top: 10px; */
+}
+.t-dropdown-item:hover {
+  /* background-color: #f1f1f1; */
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.t-dropdown-select {
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  box-sizing: content-box;
+}
+
+.t-dropdown-input {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0 3px 0 10px;
+  box-sizing: border-box;
+}
+
+.t-select-btn {
+  background-image: url(https://cdn4.iconfinder.com/data/icons/ui-indicatives/100/Indicatives-26-128.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 7px 7px;
+  position: absolute;
+  width: 30px;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-left: 1px solid #ddd;
+}
+
+.t-select-btn:active {
+  background-color: #f1f1f1;
+}
+
+.t-dropdown-item {
+  padding: 5px 10px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+.sofware_head {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.sofware_head:hover {
+  background-color: #fff !important;
+  color: gray;
+}
+.DM {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.DM:hover {
+  background-color: #fff !important;
+  color: gray;
+}
+.ad_web_eng {
+  color: gray;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.ad_web_eng:hover {
+  background-color: #fff !important;
+  color: gray;
+}
+/* Documents page */
+.dcm_body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* Performance page */
+.per_body {
+  background-color: rgb(243, 243, 243);
+}
+.advWeb {
+  color: gray;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.tbl {
+  padding: 5rem !important;
+}
+.tbl thead tr th {
+  font-size: larger;
+}
+.tbl tbody tr td {
+  background-color: #fff !important;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.tbl tbody tr td a {
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+.tbl tbody tr td a:hover {
+  text-decoration: underline;
+}
+.soft {
+  color: gray;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.list_form_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.3rem 0.3rem;
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.list_form_btn:hover {
+  box-shadow: 0 0 0.4rem 0.2rem blueviolet;
+  color: blueviolet;
+}
+.table_form_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  padding: 0.3rem 0.3rem;
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.table_form_btn:hover {
+  box-shadow: 0 0 0.4rem 0.2rem blueviolet;
+  color: blueviolet;
+}
+/* performance table page */
+.tbl_format thead tr th {
+  background-color: blueviolet;
+  color: #fff;
+}
+.tbl_format thead tr th {
+  font-size: larger;
+  font-weight: 600;
+}
+.tbl_format tbody tr td {
+  font-weight: 400;
+}
+/* attendance  Page*/
+.att_body {
+  background-color: rgb(243, 243, 243);
+}
+
+/* Admission Page */
+.admi_body {
+  background-color: rgb(243, 243, 243);
+}
+.card_course {
+  font-size: x-large;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: 500;
+  transition: all ease-in 0.3s;
+}
+.card_course:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.card_fee_date {
+  color: gray;
+  font-weight: 500;
+}
+.assign_link {
+  text-transform: uppercase;
+  font-size: x-large;
+  color: blueviolet;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all ease-in 0.3s;
+}
+.assign_link:hover {
+  text-decoration: underline;
+}
+.assign_course {
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* Profile Page */
+.profile_body {
+  background-color: rgb(243, 243, 243);
+}
+.std_head {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.profile_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 0.1rem;
+  margin: 10px;
+}
+.std_name {
+  font-size: x-large;
+}
+.profile_tbl td i {
+  color: blueviolet;
+}
+.profile_tbl td {
+  padding: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.rcrvy_mail {
+  font-family: sans-serif;
+}
+.nt_avai {
+  font-size: large;
+  font-weight: 500;
+  color: gray;
+}
+.nt_avai:hover {
+  cursor: pointer;
+}
+.md_title {
+  font-family: sans-serif;
+}
+.md_body p:first-child {
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: gray;
+}
+.md_body p:nth-child(2) {
+  font-size: x-large;
+  font-weight: 600;
+}
+.save_md_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: medium;
+  /* padding: 0.3rem 0.3rem; */
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.save_md_btn:hover {
+  background-color: rgb(100, 0, 194);
+  color: #fff;
+}
+/* edit Page */
+.edit_body {
+  background-color: rgb(243, 243, 243);
+}
+.edit_form {
+  background-color: #fff;
+}
+.edit_form h3:first-child {
+  font-family: sans-serif;
+}
+.edit_form label {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.edit_form h4 {
+  font-family: sans-serif;
+}
+.edit_save_btn {
+  background-color: blueviolet;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 0.3rem 1.2rem;
+  height: fit-content;
+  transition: all ease 0.3s;
+  border-radius: 0.2rem;
+}
+.edit_save_btn:hover {
+  background-color: rgb(100, 0, 194);
+  color: #fff;
+}
+.edit_card p:first-child {
+  font-size: x-large;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.edit_card .card-text {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.std_sub_body {
+  background-color: rgb(243, 243, 243);
+}

@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: math; */
+}
+
+body {
+  position: relative;
+  padding: 20px;
+  /* height: 100vh; */
+}
+/* .logo_div {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  height: 100px;
+  width: 250px;
+} */
+
+.classPro_head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.classpro {
+  font-family: fantasy;
+  text-align: center;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+/* .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+.wlcm_head {
+  font-family: math;
+  font-weight: 800;
+  text-align: center;
+}
+.login_head {
+  color: rgb(156, 156, 156);
+  font-weight: 600;
+  text-align: center;
+  font-size: x-large;
+}
+label {
+  font-size: large;
+  color: gray;
+}
+input:focus {
+  /* border-color: #86b7fe; */
+  border-color: blueviolet;
+  outline: 0;
+}
+.login_btn {
+  font-size: larger;
+  background-color: blueviolet;
+  color: #fff;
+  transition: all ease 0.2s;
+}
+.login_btn:hover {
+  font-size: larger;
+  background-color: rgb(160, 106, 211);
+  color: #fff;
+}
+/* 
+.forgot_span {
+} */
+.fgt_pass {
+  display: inline-block;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+  color: blueviolet;
+  text-align: end;
+  text-transform: capitalize;
+  transition: all ease 0.2s;
+}
+.fgt_pass:hover {
+  text-decoration: underline;
+}
